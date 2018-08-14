@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <string>
 
 
 using namespace std;
@@ -16,11 +17,11 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-TreeNode* construct_tree(vector<char> dat, int len) {
+TreeNode* construct_tree(vector<string> dat, int len) {
     TreeNode* root = NULL;
     int index = 0;
     if (len>0) {
-        root = new TreeNode(dat[index]-'0');
+        root = new TreeNode(stoi(dat[index]));
     } else {
         return NULL;
     }
@@ -33,15 +34,15 @@ TreeNode* construct_tree(vector<char> dat, int len) {
         if(!nodes.empty()) {
             TreeNode* root = nodes.front();
             if(index<len) {
-                if(dat[index] != '#') {
-                    root->left = new TreeNode(dat[index]-'0');
+                if(dat[index] != "#") {
+                    root->left = new TreeNode(stoi(dat[index]));
                     nodes.push(root->left);
                 }
                 index++;
             }
             if(index<len) {
-                if(dat[index] != '#') {
-                    root->right = new TreeNode(dat[index]-'0');
+                if(dat[index] != "#") {
+                    root->right = new TreeNode(stoi(dat[index]));
                     nodes.push(root->right);
                 }
                 index++;
@@ -52,9 +53,12 @@ TreeNode* construct_tree(vector<char> dat, int len) {
     return root;
 }
 
+
+
+
 // write your function of tree
 
 int main() {
-    vector<char> s = {'1', '#', '2', '3'};
+    vector<string> s = {"3", "9", "20", "#", "#", "15", "7"};
     TreeNode* btree = construct_tree(s, s.size());
 }
