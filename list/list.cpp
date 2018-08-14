@@ -50,6 +50,6 @@ int main() {
     addNode(tmp, 3);
     addNode(tmp, 4);
     addNode(tmp, 5);
-    //
+    printList(tmp);
 
 }
