@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/wei/CLionProjects/leetcode/tree/tree.cpp
+/Users/wei/CLionProjects/leetcode/array/array.cpp
 iostream
 -
 vector
--
-queue
--
-string
 -
 

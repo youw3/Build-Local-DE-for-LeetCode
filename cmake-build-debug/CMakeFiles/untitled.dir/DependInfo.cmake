@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wei/CLionProjects/leetcode/tree/tree.cpp" "/Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/untitled.dir/tree/tree.cpp.o"
+  "/Users/wei/CLionProjects/leetcode/array/array.cpp" "/Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/untitled.dir/array/array.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

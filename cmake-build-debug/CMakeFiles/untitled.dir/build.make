@@ -57,38 +57,38 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/tree/tree.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/tree/tree.cpp.o: ../tree/tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/tree/tree.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/tree/tree.cpp.o -c /Users/wei/CLionProjects/leetcode/tree/tree.cpp
+CMakeFiles/untitled.dir/array/array.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/array/array.cpp.o: ../array/array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/array/array.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/array/array.cpp.o -c /Users/wei/CLionProjects/leetcode/array/array.cpp
 
-CMakeFiles/untitled.dir/tree/tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/tree/tree.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wei/CLionProjects/leetcode/tree/tree.cpp > CMakeFiles/untitled.dir/tree/tree.cpp.i
+CMakeFiles/untitled.dir/array/array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/array/array.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wei/CLionProjects/leetcode/array/array.cpp > CMakeFiles/untitled.dir/array/array.cpp.i
 
-CMakeFiles/untitled.dir/tree/tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/tree/tree.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wei/CLionProjects/leetcode/tree/tree.cpp -o CMakeFiles/untitled.dir/tree/tree.cpp.s
+CMakeFiles/untitled.dir/array/array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/array/array.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wei/CLionProjects/leetcode/array/array.cpp -o CMakeFiles/untitled.dir/array/array.cpp.s
 
-CMakeFiles/untitled.dir/tree/tree.cpp.o.requires:
+CMakeFiles/untitled.dir/array/array.cpp.o.requires:
 
-.PHONY : CMakeFiles/untitled.dir/tree/tree.cpp.o.requires
+.PHONY : CMakeFiles/untitled.dir/array/array.cpp.o.requires
 
-CMakeFiles/untitled.dir/tree/tree.cpp.o.provides: CMakeFiles/untitled.dir/tree/tree.cpp.o.requires
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/tree/tree.cpp.o.provides.build
-.PHONY : CMakeFiles/untitled.dir/tree/tree.cpp.o.provides
+CMakeFiles/untitled.dir/array/array.cpp.o.provides: CMakeFiles/untitled.dir/array/array.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array/array.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/array/array.cpp.o.provides
 
-CMakeFiles/untitled.dir/tree/tree.cpp.o.provides.build: CMakeFiles/untitled.dir/tree/tree.cpp.o
+CMakeFiles/untitled.dir/array/array.cpp.o.provides.build: CMakeFiles/untitled.dir/array/array.cpp.o
 
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/tree/tree.cpp.o"
+"CMakeFiles/untitled.dir/array/array.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled: CMakeFiles/untitled.dir/tree/tree.cpp.o
+untitled: CMakeFiles/untitled.dir/array/array.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled"
@@ -99,7 +99,7 @@ CMakeFiles/untitled.dir/build: untitled
 
 .PHONY : CMakeFiles/untitled.dir/build
 
-CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/tree/tree.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/array/array.cpp.o.requires
 
 .PHONY : CMakeFiles/untitled.dir/requires
 
