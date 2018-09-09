@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/wei/CLionProjects/leetcode/array/array.cpp
+/Users/wei/CLionProjects/leetcode/test.cpp
 iostream
 -
 vector
+-
+numeric
+-
+limits
+-
+map
+-
+set
 -
 
