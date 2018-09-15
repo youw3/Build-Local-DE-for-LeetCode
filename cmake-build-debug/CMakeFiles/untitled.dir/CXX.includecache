@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/wei/CLionProjects/leetcode/test.cpp
+/Users/wei/github/Build-Local-DE-for-LeetCode/array/array.cpp
 iostream
 -
 vector
 -
-numeric
--
-limits
--
-map
--
-set
+climits
 -
 

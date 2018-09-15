@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wei/CLionProjects/leetcode
+CMAKE_SOURCE_DIR = /Users/wei/github/Build-Local-DE-for-LeetCode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wei/CLionProjects/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wei/github/Build-Local-DE-for-LeetCode/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles /Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei/github/Build-Local-DE-for-LeetCode/cmake-build-debug/CMakeFiles /Users/wei/github/Build-Local-DE-for-LeetCode/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei/CLionProjects/leetcode/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wei/github/Build-Local-DE-for-LeetCode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-test.o: test.cpp.o
+array/array.o: array/array.cpp.o
 
-.PHONY : test.o
+.PHONY : array/array.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/test.cpp.o
-.PHONY : test.cpp.o
+array/array.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array/array.cpp.o
+.PHONY : array/array.cpp.o
 
-test.i: test.cpp.i
+array/array.i: array/array.cpp.i
 
-.PHONY : test.i
+.PHONY : array/array.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/test.cpp.i
-.PHONY : test.cpp.i
+array/array.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array/array.cpp.i
+.PHONY : array/array.cpp.i
 
-test.s: test.cpp.s
+array/array.s: array/array.cpp.s
 
-.PHONY : test.s
+.PHONY : array/array.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/test.cpp.s
-.PHONY : test.cpp.s
+array/array.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/array/array.cpp.s
+.PHONY : array/array.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... array/array.o"
+	@echo "... array/array.i"
+	@echo "... array/array.s"
 .PHONY : help
 
 
