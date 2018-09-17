@@ -16,20 +16,21 @@ void print_vector(vector<T>& t) {
     cout<<t[t.size()-1]<<']'<<endl;
 }
 
-double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-    int len = nums1.size()+nums2.size();
-    nums1.insert(nums1.end(), nums2.begin(), nums2.end());
-    sort(nums1.begin(), nums1.end());
-    if(len%2) {
-        return nums1[(len-1)/2]+0.0;
-    } else {
-        return (nums1[len/2-1]+nums1[len/2]+0.0)/2;
+
+int gcd(int a, int b) {
+    if(a<b) {
+        swap(a,b);
     }
+    while(b) {
+        int c = a;
+        a = b;
+        b = c%b;
+    }
+    return a;
 }
+
 //add your function of array
 
 int main() {
-    vector<int> t1 = {1, 2};
-    vector<int> t2 = {3, 4};
-    cout<<findMedianSortedArrays(t1, t2);
+   cout<<gcd(20, 12);
 }

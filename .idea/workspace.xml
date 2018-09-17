@@ -15,27 +15,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/array/array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/array/array.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/array/array.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/array/array.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/array/array.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/list/list.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/list/list.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/tree/tree.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/list.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/list/list.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tree/tree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/list/cmake-build-debug/" />
@@ -98,23 +90,52 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-703711121">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="2" />
+          <entry key="ios" value="1" />
+          <entry key="queue" value="2" />
+          <entry key="string" value="3" />
+          <entry key="string_view" value="1" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="3013" />
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="14" />
+          <entry key="ObjectiveC" value="3013" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/list.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/array.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="1" />
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
                 <element signature="e#127#139#0" expanded="true" />
@@ -124,62 +145,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.cpp">
+        <entry file="file://$PROJECT_DIR$/tree/tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#39#58#0" expanded="true" />
+                <element signature="e#2303#2315#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/string">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39675">
-              <caret line="2645" selection-start-line="2645" selection-end-line="2645" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="42" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#684#696#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/ios">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3225">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/string_view">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="111">
+              <caret line="3607" selection-start-line="3607" selection-end-line="3607" />
             </state>
           </provider>
         </entry>
@@ -193,12 +175,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tree/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/tree/tree.cpp" />
         <option value="$PROJECT_DIR$/list/list.cpp" />
-        <option value="$PROJECT_DIR$/array/array.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/a.cpp" />
         <option value="$PROJECT_DIR$/test.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/array/array.cpp" />
+        <option value="$PROJECT_DIR$/tree/tree.cpp" />
       </list>
     </option>
   </component>
@@ -209,10 +191,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
-    <option name="y" value="42" />
-    <option name="width" value="1440" />
-    <option name="height" value="709" />
+    <option name="x" value="102" />
+    <option name="y" value="23" />
+    <option name="width" value="1009" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -222,38 +204,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Build-Local-DE-for-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Build-Local-DE-for-LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Build-Local-DE-for-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Build-Local-DE-for-LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Build-Local-DE-for-LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Build-Local-DE-for-LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,12 +247,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.untitled">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="untitled" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="untitled" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="untitled">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.untitled" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.untitled" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -308,30 +294,32 @@
       <workItem from="1536073163483" duration="8743000" />
       <workItem from="1536458652962" duration="6763000" />
       <workItem from="1536489898017" duration="3409000" />
+      <workItem from="1537002442873" duration="855000" />
+      <workItem from="1537079130394" duration="15260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145063000" />
+    <option name="totallyTimeSpent" value="161178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="436" y="279" width="1440" height="819" extended-state="0" />
+    <frame x="102" y="23" width="1009" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.119456366" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17683557" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="CMake" order="5" weight="0.45392022" />
+      <window_info anchor="bottom" id="CMake" order="5" weight="0.45380875" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.5667125" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.33562586" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.33495936" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.33495936" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.4167813" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.41626015" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -453,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/tree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iterator">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -477,39 +458,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/list.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/array.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-            <element signature="e#127#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/a.cpp" />
+    <entry file="file://$PROJECT_DIR$/test.cpp" />
     <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39675">
           <caret line="2645" selection-start-line="2645" selection-end-line="2645" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#684#696#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,26 +474,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/list.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/string_view">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
+        <state relative-caret-position="332">
           <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/queue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7563">
+          <caret line="193" column="27" selection-start-line="193" selection-start-column="27" selection-end-line="193" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.cpp">
+    <entry file="file://$PROJECT_DIR$/array/array.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#127#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/string">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="3607" selection-start-line="3607" selection-end-line="3607" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/tree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+            <element signature="e#2303#2315#0" expanded="true" />
           </folding>
         </state>
       </provider>
