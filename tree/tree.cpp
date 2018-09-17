@@ -16,20 +16,21 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-TreeNode* construct_tree(vector<string> &data, int index, int n)
+TreeNode* construct_tree(vector<string> &data, int index)
 {
     TreeNode* pNode = NULL;
 
-    if(index < n && data[index] != "#")  //数组中-1 表示该节点为空
+    if(index < data.size() && data[index] != "#")  //数组中"#" 表示该节点为空
     {
-        pNode = (TreeNode*)malloc(sizeof(TreeNode));
-        if(pNode == NULL)
-            return NULL;
-        pNode->val = stoi(data[index]);
-        pNode->left = construct_tree(data, 2 * index + 1, n);  //将二叉树按照层序遍历, 依次标序号, 从0开始
-        pNode->right = construct_tree(data, 2 * index + 2, n);
+        pNode = new TreeNode(stoi(data[index]));
+        pNode->left = construct_tree(data, 2 * index + 1);  //将二叉树按照层序遍历, 依次标序号, 从0开始
+        pNode->right = construct_tree(data, 2 * index + 2);
     }
     return pNode;
+}
+
+TreeNode* Tree(vector<string> &data) {
+    return construct_tree(data, 0);
 }
 
 
@@ -88,7 +89,7 @@ int main() {
     vector<string> v={"6","3","1","#","#","4","1","#"
     ,"#","#","#","#","#","#","1"};
 //    vector<string> v={"5","#","1","#","#","2","#"};
-    TreeNode* t = construct_tree(v, 0, v.size());
+    TreeNode* t = Tree(v);
     vector<vector<int>> result=FindPath(t, 9);
     for(int i=0; i<result.size(); ++i) {
         print_vector(result[i]);
