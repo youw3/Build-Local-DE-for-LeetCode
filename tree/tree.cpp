@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <set>
 #include <stack>
+#include <iterator>
 
 
 using namespace std;
@@ -53,45 +54,60 @@ void level_order(TreeNode* root) {
 }
 // write your function of tree
 
-
-vector<vector<int>>allRes;
-vector<int> tmp;
-
-void dfsFind(TreeNode* node, int left){
-    tmp.push_back(node->val);
-    if(left-node->val == 0 && !node->left && !node->right)
-        allRes.push_back(tmp);
-    else {
-        if(node->left) dfsFind(node->left, left-node->val);
-        if(node->right) dfsFind(node->right, left-node->val);
+void PostorderTravel(TreeNode* root) {
+    cout << "PostorderTravel: ";
+    if (root == NULL)
+        return;
+    TreeNode* tree = root;
+    stack<TreeNode*> stk1, stk2;
+    stk1.push(tree);
+    while (stk1.empty() == false) {
+        tree = stk1.top();
+        stk1.pop();
+        stk2.push(tree);
+        if (tree->left)
+            stk1.push(tree->left);
+        if (tree->right)
+            stk1.push(tree->right);
     }
-    tmp.pop_back();
-}
 
-
-
-vector<vector<int>> FindPath(TreeNode* root,int expectNumber) {
-    if(root)
-        dfsFind(root, expectNumber);
-    return allRes;
-}
-
-template <typename T>
-void print_vector(vector<T>& t) {
-//    cout<<'[';
-    for(int i=0; i<t.size()-1; ++i) {
-        cout<< t[i]<< " ";
+    while (stk2.empty() == false) {
+        cout << stk2.top()->val << " ";
+        stk2.pop();
     }
-    cout<<t[t.size()-1]<<endl;
+    cout << endl;
 }
+
+void fun(TreeNode* root, vector<int> &v) {
+    if(!root) return;
+    fun(root->left, v);
+    v.push_back(root->val);
+    fun(root->right, v);
+}
+
+TreeNode* construct(vector<int>&v, int i) {
+    if(i<v.size()) {
+        TreeNode* t = new TreeNode(v[i]);
+        t->right = construct(v, i+1);
+        return t;
+    }
+}
+
+TreeNode* fun(vector<int>& nums, int start, int end) {
+    if(start>end) return NULL;
+    int middle = start+(end-start)/2;
+    TreeNode* root = new TreeNode (nums[middle]);
+    root->left = fun(nums, start, middle-1);
+    root->right = fun(nums, middle+1, end);
+    return root;
+}
+
+TreeNode* sortedArrayToBST(vector<int>& nums) {
+    return fun(nums, 0, nums.size()-1);
+}
+
 
 int main() {
-    vector<string> v={"6","3","1","#","#","4","1","#"
-    ,"#","#","#","#","#","#","1"};
-//    vector<string> v={"5","#","1","#","#","2","#"};
-    TreeNode* t = Tree(v);
-    vector<vector<int>> result=FindPath(t, 9);
-    for(int i=0; i<result.size(); ++i) {
-        print_vector(result[i]);
-    }
+    vector<int>v1={-10,-3,0,5,9};
+    sortedArrayToBST(v1);
 }

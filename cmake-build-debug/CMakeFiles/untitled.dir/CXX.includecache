@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/wei/github/Build-Local-DE-for-LeetCode/tree/tree.cpp
-iostream
--
-vector
--
-queue
--
-string
--
-algorithm
--
-set
--
-stack
+/Users/wei/github/Build-Local-DE-for-LeetCode/test.cpp
+stdio.h
 -
 

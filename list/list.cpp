@@ -42,36 +42,5 @@ void printList(ListNode *head) {
     }
 }
 
-ListNode* deleteDuplication(ListNode* pHead)
-{
-    if(!pHead||!pHead->next) return pHead;
-    ListNode dummy(-1);
-    ListNode* prev = &dummy;
-    prev->next = pHead;
-    ListNode* cur = pHead;
-    while(cur->next) {
-        if(cur->val==cur->next->val) {
-            int red_value = cur->val;
-            while(cur&&red_value==cur->val) {
-                ListNode* tmp = cur;
-                cur = cur->next;
-                delete tmp;
-            }
-            prev->next = cur;
-            if(!cur) {
-                return pHead;
-            }
-        } else {
-            prev = cur;
-            cur = cur->next;
-        }
-    }
-    return dummy.next;
-}
-//add your function of list
 
-int main() {
-    ListNode *l1 = new ListNode(3);
-    addNode(l1, 3);
-    printList(deleteDuplication(l1));
-}
+//add your function of list
