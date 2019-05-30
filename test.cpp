@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
-#include <unordered_map>
 #include <stack>
 #include <set>
 #include <map>
+#include <unordered_set>
 
 using namespace std;
 
@@ -19,6 +19,14 @@ void print_vector(vector<T>& t) {
     }
     cout<<t[t.size()-1]<<']'<<endl;
 }
+
+template <typename T>
+void print_2class_vector(vector<vector<T>>& t2){
+    for(int i=0; i<t2.size(); ++i) {
+        print_vector(t2[i]);
+    }
+}
+
 
 struct ListNode{
     int val;
@@ -81,11 +89,46 @@ TreeNode* Tree(vector<string> &data) {
 
 
 //add your function
-int search(vector<int>& nums, int target) {
-
+vector<int> spiralOrder(vector<vector<int>>& matrix) {
+    if(matrix.size()==0) return {};
+    vector<int> result;
+    int m = matrix.size();
+    int n = matrix[0].size();
+    int l=0, r=n-1, u=0, d=m-1;
+    int begin=0;
+    while(begin<m*n) {
+        for(int i=l; i<=r; ++i) {
+            result.push_back(matrix[u][i]);
+            begin++;
+        }
+        if(begin==m*n) return result;
+        u++;
+        for(int i=u; i<=d; ++i) {
+            result.push_back(matrix[i][r]);
+            begin++;
+        }
+        if(begin==m*n) return result;
+        r--;
+        for(int i=r; i>=l; --i) {
+            result.push_back(matrix[d][i]);
+            begin++;
+        }
+        if(begin==m*n) return result;
+        d--;
+        for(int i=d; i>=u; --i) {
+            result.push_back(matrix[i][l]);
+            begin++;
+        }
+        if(begin==m*n) return result;
+        l++;
+    }
+    return result;
 }
 
-
 int main() {
-    
+    vector<vector<int>> matrix = {
+            {1,2,3,4},{5,6,7,8},{9,10,11,12}
+    };
+    vector<int>result = spiralOrder(matrix);
+    print_vector(result);
 }
